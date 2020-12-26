@@ -2,6 +2,6 @@ CREATE USER 'rrcontractor'@'%' IDENTIFIED BY 'zRMNx9Em3hfpJ';
 
 CREATE DATABASE IF NOT EXISTS RRContractor;
 
-GRANT ALL PRIVILEGES ON CVpage.* TO 'rrcontractor'@'%';
+GRANT ALL PRIVILEGES ON RRContractor.* TO 'rrcontractor'@'%';
 
 FLUSH PRIVILEGES;
